@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" data-theme="dracula">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Cooking-Table</title>
+  <style>
+    .bg-image {
+      background-image: url('src/assets/images/banner.jpg');
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="mt-3">
+    <div class="navbar flex justify-between items-center bg-base-100">
+      <div class="flex items-center justify-center">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>Recipes</a></li>
+            <li><a>About</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost hidden text-2xl font-bold lg:block">Recipe Calories</a>
+      </div>
+      <div class=" hidden lg:flex space-x-4">
+        <p>Home</p>
+        <p>Recipes</p>
+        <p>About</p>
+        <p>Search</p>
+      </div>
+      <div class="flex-none gap-2">
+        <div class="form-control">
+          <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+        </div>
+        <div class="dropdown dropdown-end">
+          <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img class="bg-white" src="src/assets/images/profile-user_.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="">
+      <div class="mt-9 bg-image w-auto  h-[600px] rounded-2xl flex items-center justify-center  px-7 lg:px-0">
+        <div class="flex flex-col justify-center items-center gap-5 pt-10">
+          <h1 class="text-white font-black lg:text-5xl w-[890px] mx-auto   text-center text-2xl">Discover an
+            exceptional
+            cooking
+            class
+            tailored for you!
+          </h1>
+          <p class="text-center  text-[#dfe0ec99] font-medium text-[18px] lg:w-[650px] ">Learn and Master Basic
+            Programming, Data
+            Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well
+            world-class Programmer. </p>
+          <div class="space-x-3">
+            <button class="btn font-bold btn-primary rounded-3xl w-44">Registered Now</button>
+            <button class="btn font-bold btn-primary bg-transparent text-white rounded-3xl w-44">Explore Now</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

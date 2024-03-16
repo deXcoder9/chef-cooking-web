@@ -1,0 +1,34 @@
+[
+    {
+      "id": 12345678,
+      "img": "https://i.postimg.cc/jdwx0Y71/Whats-App-Image-2024-03-16-at-07-47-47-e628a52f.jpg",
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish with rich tomato sauce and ground beef.",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400g spaghetti pasta",
+        "1 can (400g) diced tomatoes"
+      ],
+      "time": 30,
+      "calory": 400
+    },
+    {
+      "id": 98765432,
+      "img": "https://i.postimg.cc/Nfm02wjH/Whats-App-Image-2024-03-16-at-07-48-08-f995224c.jpg",
+      "title": "Chicken Stir-Fry",
+      "description": "Quick and easy Asian-inspired stir-fry with tender chicken and colorful vegetables.",
+      "ingredients": [
+        "400g boneless, skinless chicken breasts, thinly sliced",
+        "1 red bell pepper, thinly sliced",
+        "1 yellow bell pepper, thinly sliced",
+        "1 cup snow peas",
+        "1 carrot, julienned",
+        "2 cloves garlic, minced"
+      ],
+      "time": 43,
+      "calory": 540
+    }
+  ]
+  
