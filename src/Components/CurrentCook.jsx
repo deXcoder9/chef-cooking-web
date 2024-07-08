@@ -5,7 +5,7 @@ const CurrentCook = ({ idx, CurrentlyCooking }) => {
 
         <div className='w-full'>
             <tr className='w-[100%]'>
-                <td className="">{idx + 1}.  {name} </td>
+                <td className=" w-[30px]">{idx + 1}.  {name} </td>
                 <td>{time}</td>
                 <td className="">{calory} Calories </td>
             </tr>

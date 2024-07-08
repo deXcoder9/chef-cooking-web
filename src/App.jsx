@@ -43,7 +43,7 @@ function App() {
       <div className='max-w-[1380px] mx-auto'>
 
         <Header></Header>
-        <div className='flex  justify-between  mt-10 '>
+        <div className='flex  lg:justify-between flex-col lg:flex-row  mt-10 '>
           <Cards handleWantToCOok={handleWantToCOok} cards={cards}></Cards>
           <Sidebars bookmark={bookmark} cookTime={cookTime} CurrentlyCooking={CurrentlyCooking} CompCookTime={CompCookTime} total={total} handleCurrentlyCooking={handleCurrentlyCooking}   ></Sidebars>
         </div >

@@ -29,3 +29,18 @@ table tbody tr td {
 table tbody tr td:first-child {
     flex: 1;
 }
+
+@media screen and (max-width: 480px) {
+    table tbody tr td {
+        width: 10px;
+        background-color: transparent;
+    }
+
+    table thead tr th {
+        width: 80px;
+    }
+
+    table tbody tr td:first-child {
+        flex: 0;
+    }
+}
